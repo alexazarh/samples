@@ -36,7 +36,9 @@ source:
     ami:
       - id: ami-f90a4880
         region: eu-west-1
-
+    azure_image:
+	  - urn: Canonical:UbuntuServer:16.04-LTS:latest
+	  
 configuration:
   # The initialization script is intended to install
   # app prerequisite and initialize the OS
