@@ -28,7 +28,7 @@ infrastructure:
       - port_info:
           port: 3306
 
-source:
+source: 
   os_type: linux
   image:
     # This is a clean Ubuntu server image that will
