@@ -38,6 +38,9 @@ source:
         region: eu-west-1
     azure_image:
       - urn: Canonical:UbuntuServer:16.04-LTS:latest
+    docker_image:
+    - tag: latest
+      name: ubuntu:16.04
 
 configuration:
   # The initialization script is intended to install
