@@ -25,6 +25,8 @@ infrastructure:
     spec:
       aws:
         instance_type: t2.medium
+    azure_image:
+      - urn: Canonical:UbuntuServer:16.04-LTS:latest
 
   connectivity:
     external:

@@ -28,7 +28,7 @@ metadata:
     Microservices architecture
 
 clouds:
-  - aws: eu-west-1
+  - azure-staging: westeurope
 
 applications:
   - ms-data-store:
