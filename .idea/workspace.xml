@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e643e94-5545-408d-9b8a-9f63c9a4c694" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/applications/mysql/mysql-k8s.sh" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/applications/mysql/mysql.yaml" afterPath="$PROJECT_DIR$/applications/mysql/mysql.yaml" />
-      <change beforePath="$PROJECT_DIR$/applications/wordpress/wordpress.yaml" afterPath="$PROJECT_DIR$/applications/wordpress/wordpress.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mysql.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mysql.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/applications/mysql/mysql.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="366">
+              <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -35,21 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wordpress (AKS).yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blueprints/Wordpress (AKS).yaml">
+      <file leaf-file-name="WordpressAKS.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blueprints/WordpressAKS.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ms-data-store.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/ms-data-store/ms-data-store.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,11 +74,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wordpress.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wordpress.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/applications/wordpress/wordpress.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="427">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/mysql/mysql.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql-k8s.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-k8s.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,16 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ms-api-gateway.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/ms-api-gateway/ms-api-gateway.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -138,6 +137,7 @@
         <option value="$PROJECT_DIR$/blueprints/Wordpress (AKS).yaml" />
         <option value="$PROJECT_DIR$/applications/mysql/mysql.yaml" />
         <option value="$PROJECT_DIR$/applications/wordpress/wordpress.yaml" />
+        <option value="$PROJECT_DIR$/applications/mysql/mysql-k8s.sh" />
       </list>
     </option>
   </component>
@@ -204,6 +204,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\meni.b\Desktop\samples\applications\mysql" />
       <recent name="C:\Users\meni.b\Desktop\samples\blueprints" />
     </key>
   </component>
@@ -386,26 +387,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/Wordpress (AKS).yaml">
+    <entry file="file://$PROJECT_DIR$/blueprints/WordpressAKS.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/mysql/mysql.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="18" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/applications/wordpress/wordpress.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="427">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/mysql/mysql.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-k8s.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/mysql/mysql.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
           <folding />
         </state>
       </provider>
