@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e643e94-5545-408d-9b8a-9f63c9a4c694" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/applications/ms-api-gateway/ms-api-gateway.sh" afterPath="$PROJECT_DIR$/applications/ms-api-gateway/ms-api-gateway.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/ms-data-store/ms-data-store.sh" afterPath="$PROJECT_DIR$/applications/ms-data-store/ms-data-store.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/ms-orders-manager/ms-orders-manager.sh" afterPath="$PROJECT_DIR$/applications/ms-orders-manager/ms-orders-manager.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/ms-payments-service/ms-payments-service.sh" afterPath="$PROJECT_DIR$/applications/ms-payments-service/ms-payments-service.sh" />
-      <change beforePath="$PROJECT_DIR$/blueprints/NodeAKS.yaml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/applications/mysql/mysql-start-k8s.sh" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,56 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ms-payments-service.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/ms-payments-service/ms-payments-service.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ms-orders-manager.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/ms-orders-manager/ms-orders-manager.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ms-data-store.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/ms-data-store/ms-data-store.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ms-api-gateway.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/ms-api-gateway/ms-api-gateway.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ms-data-store-start.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/ms-data-store/ms-data-store-start.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ms-data-store.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/applications/ms-data-store/ms-data-store.sh">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +44,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordpressAKS.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordpressAKS.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blueprints/WordpressAKS.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node JS (Microservices).yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blueprints/Node JS (Microservices).yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql-k8s.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-k8s.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql-start-k8s.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-start-k8s.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordpress.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/applications/wordpress/wordpress.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql-start.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-start.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,7 +124,6 @@
       <list>
         <option value="$PROJECT_DIR$/applications/rails-website/rails-website.yaml" />
         <option value="$PROJECT_DIR$/blueprints/Java Spring.yaml" />
-        <option value="$PROJECT_DIR$/blueprints/Node JS (Microservices).yaml" />
         <option value="$PROJECT_DIR$/blueprints/Rails (ALL-In-1-Server).yaml" />
         <option value="$PROJECT_DIR$/blueprints/Rails (Basic-2-Node).yaml" />
         <option value="$PROJECT_DIR$/blueprints/Rails (Production-Like).yaml" />
@@ -146,6 +142,8 @@
         <option value="$PROJECT_DIR$/applications/ms-api-gateway/ms-api-gateway.sh" />
         <option value="$PROJECT_DIR$/applications/ms-orders-manager/ms-orders-manager.sh" />
         <option value="$PROJECT_DIR$/applications/ms-payments-service/ms-payments-service.sh" />
+        <option value="$PROJECT_DIR$/blueprints/Node JS (Microservices).yaml" />
+        <option value="$PROJECT_DIR$/applications/mysql/mysql-start-k8s.sh" />
       </list>
     </option>
   </component>
@@ -184,6 +182,18 @@
             <path>
               <item name="samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
               <item name="blueprints" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -200,8 +210,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\meni.b\Desktop\samples\blueprints" />
       <recent name="C:\Users\meni.b\Desktop\samples\applications\mysql" />
+      <recent name="C:\Users\meni.b\Desktop\samples\blueprints" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,9 +244,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30038023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30038023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23387097" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -275,14 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/Node JS (Microservices).yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -335,14 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/applications/wordpress/wordpress.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blueprints/Wordpress (LAMP).yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -363,14 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-k8s.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -467,6 +452,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blueprints/Node JS (Microservices).yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-k8s.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/mysql/mysql-start-k8s.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/wordpress/wordpress.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
