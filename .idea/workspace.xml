@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e643e94-5545-408d-9b8a-9f63c9a4c694" name="Default" comment="" />
+    <list default="true" id="4e643e94-5545-408d-9b8a-9f63c9a4c694" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/blueprints/Wordpress-AWS.yaml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/blueprints/Wordpress (LAMP).yaml" afterPath="$PROJECT_DIR$/blueprints/Wordpress-Azure.yaml" />
+      <change beforePath="$PROJECT_DIR$/blueprints/WordpressAKS.yaml" afterPath="$PROJECT_DIR$/blueprints/Wordpress-Azure-AKS.yaml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordpressAKS.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blueprints/WordpressAKS.yaml">
+      <file leaf-file-name="Wordpress-Azure-AKS.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blueprints/Wordpress-Azure-AKS.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -199,9 +204,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\meni.b\Desktop\samples\blueprints" />
       <recent name="C:\Users\meni.b\Desktop\samples\applications\wordpress" />
       <recent name="C:\Users\meni.b\Desktop\samples\applications\mysql" />
-      <recent name="C:\Users\meni.b\Desktop\samples\blueprints" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,9 +239,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30038023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30038023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23387097" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -327,7 +331,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/Wordpress (LAMP).yaml">
+    <entry file="file://$PROJECT_DIR$/blueprints/Wordpress-Azure.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
@@ -447,10 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/WordpressAKS.yaml">
+    <entry file="file://$PROJECT_DIR$/blueprints/Wordpress-Azure-AKS.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
