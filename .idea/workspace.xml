@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e643e94-5545-408d-9b8a-9f63c9a4c694" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/blueprints/Rails (Basic-2-Node).yaml" afterPath="$PROJECT_DIR$/blueprints/Rails (Basic-2-Node).yaml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/applications/rails-website/rails_website.sh" afterPath="$PROJECT_DIR$/applications/rails-website/rails_website.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,16 +29,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wordpress.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/applications/wordpress/wordpress.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rails (Basic-2-Node).yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rails (Basic-2-Node).yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blueprints/Rails (Basic-2-Node).yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rails_website.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/applications/rails-website/rails_website.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,6 +148,7 @@
         <option value="$PROJECT_DIR$/applications/wordpress/wordpress-k8s.sh" />
         <option value="$PROJECT_DIR$/applications/wordpress/wordpress-start-k8s.sh" />
         <option value="$PROJECT_DIR$/blueprints/Rails (Basic-2-Node).yaml" />
+        <option value="$PROJECT_DIR$/applications/rails-website/rails_website.sh" />
       </list>
     </option>
   </component>
@@ -181,6 +183,12 @@
               <item name="samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="samples" type="462c0819:PsiDirectoryNode" />
               <item name="applications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="rails-website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="samples" type="b2602c69:ProjectViewProjectNode" />
@@ -525,6 +533,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/rails-website/rails_website.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
