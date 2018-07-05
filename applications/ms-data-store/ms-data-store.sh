@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-sleep 30m
 
 # Update packages and Upgrade system
 echo "****************************************************************"
@@ -12,6 +11,7 @@ apt-get update -y
 echo "****************************************************************"
 echo "Installing NodeJS"
 echo "****************************************************************"
+# need to install curl
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 apt-get install -y nodejs
 node -v
