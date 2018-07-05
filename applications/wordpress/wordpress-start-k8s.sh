@@ -4,5 +4,4 @@ echo "****************************************************************"
 echo "Restarting Apache"
 echo "****************************************************************"
 service apache2 restart
-
-sleep 30m
+while ps -p $(pgrep apache2) > /dev/null ; do sleep 1; done;
