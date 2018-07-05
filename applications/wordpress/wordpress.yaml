@@ -50,8 +50,7 @@ configuration:
     script: wordpress.sh
   # This command restarts the Apache server after the initialization completes
   start:
-    command: >
-      systemctl restart apache2.service
+    script: wordpress-start.sh
   # To validate the installation, we wait to see that the ports are available
   healthcheck:
     wait_for_ports: ALL
