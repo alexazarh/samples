@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sleep 30m
+
 echo "****************************************************************"
 echo "For Debugging (print env. variables, define command tracing)"
 echo "****************************************************************"
