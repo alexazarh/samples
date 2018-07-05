@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sleep 30m
+
 # Update packages and Upgrade system
 echo "****************************************************************"
 echo "Updating System"
