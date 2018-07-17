@@ -49,11 +49,11 @@ configuration:
   # app prerequisite and initialize the OS
   initialization:
     script: java-spring-website.sh
-  # The command is the actual command used to start
+  # The script is the actual command used to start
   # the application process
   start:
-    command: >
-      systemctl restart tomcat8
+    script: java-spring-website-start.sh
+
   # We validate the app is listening on
   # the ports defined in the connectivity section
   # to validate it is up
