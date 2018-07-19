@@ -17,7 +17,7 @@ inputs:
 
 # This section defines the infrastructure requirements
 # for the application
-infrastructure:
+#infrastructure:
   # Specify the compute requirement for this app
   # if we don't specify anything the default will be used
   compute:
